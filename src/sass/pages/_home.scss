@@ -1,0 +1,15 @@
+.homeBlock {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeWrapper {
+  & > h1 {
+    font-size: calc(36px + (72 - 36) * ((100vw - 600px) / (1920 - 600)));
+    font-style: italic;
+    color: blue;
+  }
+}

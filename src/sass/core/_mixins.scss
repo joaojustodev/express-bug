@@ -1,0 +1,5 @@
+@mixin bp1 {
+  @media screen and (min-width: 599.95px) {
+    @content;
+  }
+}

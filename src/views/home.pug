@@ -1,0 +1,11 @@
+extends layout.pug
+block var
+  - var welcome = "Seja bem vindo"
+
+block content
+  main
+   .homeBlock
+    .homeWrapper
+      h1 EXPRESS SERVER
+      p #{welcome}
+      a(href="/about") Sobre mim

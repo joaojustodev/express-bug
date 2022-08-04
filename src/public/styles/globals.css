@@ -1,0 +1,1 @@
+.homeBlock{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center}.homeWrapper>h1{font-size:calc(36px + 36*(100vw - 600px)/1320);font-style:italic;color:blue}*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}body{background:#f33}.title{font-size:6rem}

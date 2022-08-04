@@ -1,0 +1,22 @@
+{
+  "name": "express-pug-sass",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "joaobr200 <joaoarantesjob@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --ignore node_modules --watch ./src --inspect ./src/index.js 3000",
+    "start": "node ./src/index.js"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2",
+    "sass": "^1.54.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
